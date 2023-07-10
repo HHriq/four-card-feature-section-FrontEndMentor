@@ -1,0 +1,11 @@
+:root {
+
+    --redColor: hsl(0, 78%, 62%);
+    --cyanColor: hsl(180, 62%, 55%);
+    --orangeColor: hsl(34, 97%, 64%);
+    --blueColor: hsl(212, 86%, 64%);
+
+    --VeryDarkBlueColor: hsl(234, 12%, 34%);
+    --GrayishBlueColor: hsl(229, 6%, 66%);
+    --VeryLightGrayColor: hsl(0, 0%, 98%);
+}

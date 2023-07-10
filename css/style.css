@@ -1,0 +1,121 @@
+
+
+
+
+body{
+    background-color: var(--VeryLightGrayColor);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.container{
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+header {
+    text-align: center;
+    padding-top: 70px;
+    line-height: 1.6;
+    
+}
+
+header h1{
+    font-size: 27px;
+    font-weight: 300;
+    color: var(--GrayishBlueColor);
+}
+
+header h2{
+    font-size: 27px;
+    color: var(--VeryDarkBlueColor);
+    margin-top: 8px;
+    margin-bottom: 12px;
+
+}
+
+header p{
+    color: var(--GrayishBlueColor);
+    font-size: 17px;
+    font-weight: 300;
+    width: 100%;
+    max-width: 555px;
+    margin: 0 auto;
+}
+
+
+
+
+.cards{
+    margin-top: 70px;
+    
+}
+
+
+
+.cards .card{
+    background-color: white;
+    padding: 30px 25px;
+    width: 100%;
+    max-width: 353px;
+    margin: 0 auto 25px auto;
+    border-radius: 10px;
+    border-top: 2px solid transparent;
+    box-shadow: 0 5px 10px 0px rgba(216, 226, 238, .75);
+    border-radius: 10px;
+}
+
+.cards .card:nth-last-of-type(1){
+    border-color: var(--cyanColor);
+}
+
+.cards .card:nth-last-of-type(2){
+    border-color: var(--orangeColor);
+}
+
+.cards .card:nth-last-of-type(3){
+    border-color: var(--blueColor);
+}
+
+.cards .card:nth-last-of-type(4){
+    border-color: var(--redColor);
+}
+
+.cards .card h3{
+    color: var(--VeryDarkBlueColor);
+}
+
+
+
+.cards .card p{
+    color: var(--GrayishBlueColor);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    margin: 12px 0 36px 0;
+}
+
+.cards .card img{
+    display: block;
+    margin-left: auto;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
